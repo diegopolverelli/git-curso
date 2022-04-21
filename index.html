@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+
+	<title>Aprendiendo CSS</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+<!-- 	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet"> -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Syne+Mono&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/0fc1401226.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header>
+	<nav class="nav">
+		<ul class="nav__ul">
+			<li class="nav__li"><i class="fa-solid fa-house-user"></i><a href="#">Inicio</a></li>
+			<li class="nav__li"><i class="fa-solid fa-user-group"></i><a href="#">Sobre nosotros</a></li>
+			<li class="nav__li"><i class="fa-solid fa-dollar-sign"></i><a href="#">Gana dinero</a></li>
+			<li class="nav__li"><i class="fa-solid fa-circle-question"></i><a href="#">Ayuda</a></li>
+		</ul>
+
+		<ul class="nav__responsive-ul">
+			<div class="nav_responsive-button"></div>
+			<div class=nav__li-container>
+				<li class="nav__responsive-li"><i class="fa-solid fa-house-user"></i><a href="#">Inicio</a></li>
+				<li class="nav__responsive-li"><i class="fa-solid fa-user-group"></i><a href="#">Sobre nosotros</a></li>
+				<li class="nav__responsive-li"><i class="fa-solid dollar-sign"></i><a href="#">Gana dinero</a></li>
+				<li cass="nav__responsive-li"><i class="fa-solid fa-circle-question"></i><a href="#">Ayuda</a></li>
+			</div>
+		</ul>
+
+
+
+	</nav>
+</header>
+
+<form action="/formulario" method="POST">
+	<label for="user">Ingrese User</label>
+	<input type="text" name="usuario" id="user">
+
+
+	<label for="clave">Ingrese Password</label>
+	<input type="password" name="clave" id="clave">
+
+	<input type="submit">
+
+</form>
+
+
+
+
+</body>
+</html>
